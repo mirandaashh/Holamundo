@@ -1,0 +1,499 @@
+<!doctype html>
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+  <body data-bs-spy="scroll">
+    
+
+
+
+
+
+
+  <!-- Aqui va el encabezado de nuestra pagina--> 
+   <header>
+    <nav data-bs-theme="dark" class="navbar bg-dark navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" width="80px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carreras">Carreras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contacto">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#nosotros">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#mapa">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#noticias">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#Inscribete" aria-current="page" href="#">Inscribete</a>
+              </li>
+              
+              
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+   </header>
+
+
+   <!--Aqui comienza el contenido principal de nuestra web-->
+   <main id="inicio">
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Demostración a estudiantes del instituto</h2>
+            <p>Se atendieron a estudiantes de 4to y 5to año donde se les demostro las practicas que realizan los protagonistas de tecnico general en computación.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Demostración a estudiantes del instituto</h2>
+            <p>Se atendieron a estudiantes de 4to y 5to año donde se les demostro las practicas que realizan los protagonistas de tecnico general en computación así como los de cocina y gastronimia asi como de pasteleria y panaderia.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Centro Tecnologico Che Guevara</h2>
+            <p>En nuestro centro ofertamos carreras tecnicas y cursos de capacitación a todo el publico en general que quiera capacitarse en nuestro centro. Gratiuito y de Calidad.</p>
+            <button type="button"  data-bs-toggle="modal" data-bs-target="#Inscribete" class="btn btn-success">Inscribete Ya</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Aqui va una seccion de contenido usando card de boostrap-->
+
+   
+
+   </main>
+
+
+   <section id="carreras">
+    <div class="container">
+
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>Conoce acerca de las</small>
+          <h2>Carreras</h2>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-12 col-lg-4">
+
+
+          <div class="card" >
+            <img src="img/imagen 1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge text-bg-warning">Manejo de Especies grandes y pequeñas</span>
+                
+                  <span class="badge text-bg-warning">Cuido y Mantenimiento</span>
+                
+              </div>
+              <h5 class="card-title text-center text-uppercase">ZOOTECNIA</h5>
+              <p class="card-text">Aprenderas sobre el manejo y cuido de las Especies Grandes.</p>
+              
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-4">
+
+
+          <div class="card" >
+            <img src="img/imagen 2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge text-bg-info">JavaScript</span>
+                  <span class="badge text-bg-info">HTML</span>
+                
+              </div>
+              <h5 class="card-title text-center text-uppercase">Programación</h5>
+              <p class="card-text">En la carrera aprenderas de diseño web, javascript, bases de datos y desarrollo de sistemas usando bases de datos.</p>
+             
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-4">
+
+
+          <div class="card" >
+            <img src="img/imagen 3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge text-bg-danger">Dominio de leyes aduaneras</span>
+                
+                  <span class="badge text-bg-danger">Intercambio comercial</span>
+                
+              </div>
+              <h5 class="card-title text-center text-uppercase">Administracion Aduanera</h5>
+              <p class="card-text">Aprenderas a planificar y controlar entra y salida de mercancias</p>
+             
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-4">
+
+
+          <div class="card" >
+            <img src="img/imagen 4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge text-bg-success">Competividad y Sostenibilidad</span>
+                
+                  <span class="badge text-bg-success">Interacción con especies</span>
+                
+              </div>
+              <h5 class="card-title text-center text-uppercase">Agropecuaria</h5>
+              <p class="card-text">Aprenderas a cerca de la producción agricola y agroindustrial.</p>
+             
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-4">
+
+
+          <div class="card" >
+            <img src="img/imagen 5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge text-bg-warning">Terminos culinarios</span>
+                
+                  <span class="badge text-bg-warning">Tecnicas nuevas</span>
+                
+              </div>
+              <h5 class="card-title text-center text-uppercase">Cocina y gastronomía</h5>
+              <p class="card-text">Aqui aprenderas a elaborar postres, la realización de diferentes platillos y usando las técnicas apropiadas.</p>
+             
+            </div>
+          </div>
+
+        </div>
+
+        
+
+        <div class="col-12 col-lg-4">
+
+
+          <div class="card" >
+            <img src="img/topograaafaia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge text-bg-warning">Estudio detallado de la tierra</span>
+                
+                  <span class="badge text-bg-warning">Trabajo de campo</span>
+                
+              </div>
+              <h5 class="card-title text-center text-uppercase">Topografia</h5>
+              <p class="card-text">Aprenderas a determinar las posisciones relativas de los puntos sobre la superficie de la tierra</p>
+             
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+   </section>
+
+
+   <!--Aqui tendremos el formulario de contactanos-->
+   <section id="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="Nombre" placeholder="Digite su nombre">
+            <label for="Nombre">Nombre y Apellido</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="Numero" placeholder="Digite su numero">
+            <label for="Nombre">Numero de contacto</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="correo" placeholder="Digite su correo">
+            <label for="Nombre">Correo Electronico</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="form-floating mb-3">
+            <input type="carreras" class="form-control" id="Carreras" placeholder="Dijiste su carrera de interes">
+            <label for="Nombre">Carrera de interes</label>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="5"></textarea>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <label for="">Como prefieres que te contactemos?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+           Email
+          </label>
+        </div>
+        
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+           WhatsApp
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+           Telefono
+          </label>
+        </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <label for="">Selecciona el turno que desees</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Matutino</option>
+            <option value="1">Vespertino</option>
+            <option value="2">Sabatino</option>
+            <option value="3">Dominical</option>
+          </select>
+
+        </div>
+
+
+          <!--Aqui va en botón enviar-->
+  
+    
+          <div class="col text-center">
+            <div class="d-grid gap-2 mt-5">
+              <button class="btn btn-success" type="button">Enviar Formulario</button>
+      
+            </div>
+          </div>
+
+      </div>
+    </div>
+  
+      
+  </section>
+
+  
+
+
+   <!--Aqui tenemos la sección sobre nosotros-->
+   <section id="nosotros">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>Sobre</small>
+          <h2>Nosotros</h2>
+
+
+
+        </div>
+
+
+
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/3.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Sobre Nosotros</h5>
+                  <p class="card-text">Nuestro centro ofrece una amplia oferta de carrearas y cursos de capacitación para todos aquellos protagonista que desean capacitarse, contando con servidores publicos capacitados pra brindar los servicios a nuestros protagonistas. Les esperamos para que te formes con nosotros.</p>
+                  <p class="card-text"><small class="text-body-secondary"></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+   </section>
+
+
+ <!--Aqui vamos agregar el mapa-->
+ <section id="mapa">
+ <div class="container">
+  <div class="row">
+    <div class="col text-center text-uppercase">
+      <small>Nuestra</small>
+      <h2>Ubicación</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.863350119727!2d-86.58713002407089!3d13.482516803469327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71dfd6db8986ad%3A0x463698978fb5ee04!2sCentro%20Tecnol%C3%B3gico%20Che%20Guevara%2C%20Somoto.!5e0!3m2!1ses-419!2sni!4v1710437253745!5m2!1ses-419!2sni" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+ </div>
+ </section>
+ <!--Aqui van los videos-->
+ <section id="noticias">
+  <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+          <small>Noticias</small>
+          <h2>Del centro</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-4" style="margin-right:auto;">
+
+            <iframe width="430" height="250" src="https://www.youtube.com/embed/z6Febzm6D1g?si=YCtqRpfKJj1CT6mf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          
+          <div class="col-12 col-lg-4" style="margin-right:auto;">
+
+            <iframe width="430" height="250" src="https://www.youtube.com/embed/v3FCIjHIqoA?si=591c00bUU9ytIst8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-12 col-lg-4" style="margin-right:auto;">
+
+            <iframe width="430" height="250" src="https://www.youtube.com/embed/2Kgm5_qDe6Q?si=x952XSSOK2CL3I5S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+      </div>
+    </div>
+ </section>
+    
+   <!-- Aqui esta el footer de nuestra pagina -->
+    <footer>
+        <div class="container text-center">
+            <div class="row pt-4 pb-2">
+                <div class="col">
+                    <a href="">Contactanos</a>
+                </div>
+                <div class="col">
+                    <a href="">Carreras</a>
+                </div>
+                <div class="col">
+                    <a href="">Matriculate</a>
+                </div>
+                <div class="col">
+                    <a href="">Noticias</a>
+                </div>
+                <div class="col">
+                    <a href="">Sobre Nosotros</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>&copy; Derechos reservados INATEC Che Guevara SOMOTO, 2024</p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="Inscribete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Inscibete Ahora</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Enviar Formulario</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
